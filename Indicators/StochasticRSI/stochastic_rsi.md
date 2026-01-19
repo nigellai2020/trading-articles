@@ -1,4 +1,4 @@
-# Stochastic RSI Explained Simply: A First-Principles Guide to Ethereum Precision Timing
+# Stochastic RSI Explained Simply: Is Momentum Resetting — or Exhausted?
 
 If you already understand RSI and the Stochastic Oscillator, you may still feel something is missing.
 

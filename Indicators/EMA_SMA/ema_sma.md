@@ -1,4 +1,4 @@
-# EMA & SMA Explained Simply: A First-Principles Guide to Ethereum Trends
+# EMA & SMA Explained Simply: Which Way Is Price Actually Going?
 
 If you look at an Ethereum chart long enough, you will notice something simple.
 

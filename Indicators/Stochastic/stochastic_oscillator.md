@@ -1,4 +1,4 @@
-# Stochastic Oscillator Explained Simply: A First-Principles Guide to Ethereum Timing
+# Stochastic Oscillator Explained Simply: Are We Near the Top or Bottom of the Range?
 
 If you trade Ethereum, you may notice this pattern.
 

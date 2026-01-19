@@ -1,4 +1,4 @@
-# MACD Explained Simply: A First‑Principles Guide to Ethereum Momentum
+# MACD Explained Simply: Is Momentum Speeding Up or Slowing Down?
 
 If you have been watching Ethereum for a while, you may have noticed something strange.
 

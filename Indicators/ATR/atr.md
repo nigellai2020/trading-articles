@@ -1,4 +1,4 @@
-# ATR Explained Simply: A First-Principles Guide to Ethereum Volatility
+# ATR Explained Simply: How Big Do Prices Normally Move?
 
 If you trade Ethereum long enough, you will notice something important.
 

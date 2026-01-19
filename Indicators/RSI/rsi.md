@@ -1,4 +1,4 @@
-# RSI Explained Simply: A First‑Principles Guide to Ethereum Momentum
+# RSI Explained Simply: Is Momentum Strong — or Just Overstretched?
 
 If you are new to trading crypto, Ethereum’s price can feel unpredictable.
 

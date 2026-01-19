@@ -1,4 +1,4 @@
-# Bollinger Bands Explained Simply: A First-Principles Guide to Ethereum Volatility
+# Bollinger Bands Explained Simply: Is the Market Calm — or About to Move?
 
 If you watch Ethereum long enough, you will notice a repeating pattern.
 
