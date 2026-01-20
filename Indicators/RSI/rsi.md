@@ -1,14 +1,29 @@
 # RSI Explained Simply: Is Momentum Strong — or Just Overstretched?
 
-If you are new to trading crypto, Ethereum’s price can feel unpredictable.
+If you are new to trading crypto, price movements can feel unpredictable.
 
-Sometimes ETH keeps rising even when it already looks “expensive.”
+Sometimes price keeps rising even when it already looks “expensive.”
 Sometimes it drops right after you buy.
 Sometimes nothing seems to work.
 
 This confusion usually comes from focusing on **price alone**.
 
 RSI exists because price does not move randomly — it moves because **buying and selling pressure changes over time**.
+
+RSI does not care about news, stories, or opinions.
+It looks only at what traders have actually done.
+
+---
+
+## Before You Go Further
+
+RSI talks a lot about **momentum**.
+
+If you are not fully clear on the difference between **momentum** (directional pressure) and **volatility** (how big price moves are), it is strongly recommended to read this first:
+
+**Volatility vs Momentum Explained Simply: Why Most Traders Confuse Them**
+
+That distinction will make everything below much easier to understand.
 
 ---
 
@@ -23,7 +38,7 @@ Price moves because:
 * Buyers push price up
 * Sellers push price down
 
-RSI does not try to guess the future.
+RSI does not try to guess the future or predict where price will go next.
 It simply asks:
 
 > **Who has been pushing harder recently — buyers or sellers?**
@@ -110,11 +125,11 @@ Many beginners learn this rule:
 * RSI > 70 → sell
 * RSI < 30 → buy
 
-This fails often in Ethereum markets.
+This fails often in strongly trending markets.
 
 Why?
 
-Because in strong ETH trends:
+Because in strong trends:
 
 * RSI can stay above 60–70 for a long time
 * Most profits often happen **while RSI is high**
@@ -131,15 +146,23 @@ It does **not** automatically mean:
 
 ## How Timeframe Changes RSI’s Meaning
 
-This is critical in crypto.
+RSI does not mean the same thing on every timeframe.
 
-RSI on different timeframes answers different questions:
+Here is a more concrete way to think about it:
 
-* **5‑minute RSI** → very short‑term pressure and noise
-* **1‑hour RSI** → intraday momentum
-* **4‑hour / daily RSI** → swing‑level strength
+* **5‑minute RSI**
+  Looks at buying and selling over roughly the last **hour**.
+  It changes quickly and is easily affected by short bursts of activity, news, or liquidations.
 
-This is why two traders can look at ETH and disagree — they may be looking at different timeframes.
+* **1‑hour RSI**
+  Looks at buying and selling over roughly the last **half day**.
+  It reflects how traders have behaved during the current trading session.
+
+* **4‑hour / daily RSI**
+  Looks at buying and selling over the last **several days to weeks**.
+  It reflects whether buyers or sellers have been in control over a much larger move.
+
+This is why two traders can look at the same market and disagree — they are measuring pressure over **different lengths of time**.
 
 RSI is not wrong.
 They are answering different questions.
@@ -152,7 +175,7 @@ RSI becomes more useful when price and momentum stop agreeing.
 
 A **bearish divergence** happens when:
 
-* ETH price makes a higher high
+* Price makes a higher high
 * RSI makes a lower high
 
 This suggests:
@@ -184,32 +207,52 @@ Instead, it is used as a **filter**.
 
 Examples:
 
-* Only allow long ETH trades when RSI stays above 40–50
+* Only allow long trades when RSI stays above 40–50
 * Avoid new entries when RSI is extremely high and flattening
 * Reduce risk when RSI weakens while price continues rising
 
 A simple example logic might look like:
 
-* If ETH is above its trend level **and** RSI > 45 → allow longs
+* If price is above its trend level **and** RSI > 45 → allow longs
 * If RSI starts falling while price rises → reduce position size
 
 RSI helps strategies avoid trading **against pressure**.
 
 ---
 
-## RSI in ETH Spot vs ETH Perpetual Trading
+## RSI in Spot vs Leveraged Trading (Beginner-Friendly Example)
 
-* **ETH Spot**
+RSI behaves the same way in all markets, but **how you use it changes** depending on whether you are trading without leverage or with leverage.
 
-  * RSI helps avoid buying after emotional spikes
-  * Useful for timing entries and exits
+* **Spot Trading (No Leverage)**
 
-* **ETH Perpetuals (Leverage)**
+  In spot trading, you are not forced out of a position if price moves against you.
 
-  * Momentum loss matters more than price
-  * RSI is often used to exit or reduce risk early
+  Here, RSI is often used to:
 
-Many experienced traders use RSI **only for risk management**.
+  * Avoid buying right after a strong emotional spike
+  * Wait for buying pressure to cool down before entering
+  * Decide when to take profits after a long move
+
+  Example:
+
+  > If price has gone up quickly and RSI is very high, a spot trader may simply wait instead of rushing in.
+
+* **Leveraged Trading (Perpetuals / Futures)**
+
+  In leveraged trading, price moving against you can trigger **liquidation**.
+
+  Here, RSI is used more defensively:
+
+  * To detect when momentum is weakening
+  * To reduce position size early
+  * To exit before a sharp reversal happens
+
+  Example:
+
+  > If RSI starts falling while price is still rising, a leveraged trader may reduce risk or close the position.
+
+This is why many experienced traders use RSI **more as a risk and exit tool** than as an entry signal.
 
 ---
 
@@ -221,7 +264,7 @@ RSI answers:
 
 It does **not** answer:
 
-* How far ETH can still move
+* How far price can still move
 * How violent the move might be
 
 That requires **volatility** — a different dimension entirely.
@@ -240,4 +283,4 @@ It strips the market down to one idea:
 
 Once you understand that, RSI stops feeling mysterious.
 
-It becomes a clear lens — not a prediction tool — for understanding how Ethereum is actually moving right now.
+It becomes a clear lens — not a prediction tool — for understanding how the market is actually moving right now.

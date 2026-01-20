@@ -2,12 +2,24 @@
 
 If you already understand RSI and the Stochastic Oscillator, you may still feel something is missing.
 
-RSI tells you **how strong momentum is**.  
+RSI tells you **how strong momentum is**.
 Stochastic tells you **where price sits inside a range**.
 
-But sometimes, Ethereum turns very quickly — faster than RSI reacts, and faster than price structure changes.
+But sometimes, markets turn very quickly — faster than RSI reacts, and faster than price structure changes.
 
 Stochastic RSI exists because traders sometimes need **finer timing inside momentum**.
+
+---
+
+## Before You Go Further
+
+Stochastic RSI deals directly with **momentum**.
+
+If you are not fully clear on the difference between **momentum** (directional pressure) and **volatility** (how big price moves are), it is strongly recommended to read this first:
+
+**Volatility vs Momentum Explained Simply: Why Most Traders Confuse Them**
+
+That distinction will make everything below much easier to understand.
 
 ---
 
@@ -18,10 +30,12 @@ Before learning Stochastic RSI, start with this question:
 > *Is momentum itself near an extreme, or resetting?*
 
 Not:
-- Where ETH price will go
-- Whether the trend is bullish or bearish
+
+* Where price will go
+* Whether the trend is bullish or bearish
 
 Just:
+
 > **Is momentum stretched or relaxed relative to its recent behavior?**
 
 That is the first-principles idea behind Stochastic RSI.
@@ -34,8 +48,8 @@ That is the first-principles idea behind Stochastic RSI.
 
 Instead of applying Stochastic to price, it applies Stochastic to **RSI**.
 
-- RSI measures momentum
-- Stochastic RSI measures *momentum of momentum*
+* RSI measures momentum
+* Stochastic RSI measures *momentum of momentum*
 
 It is a **second-order indicator**.
 
@@ -43,12 +57,13 @@ It is a **second-order indicator**.
 
 ## Why Stochastic RSI Exists at All
 
-RSI can stay high or low for a long time — especially in strong ETH trends.
+RSI can stay high or low for a long time — especially in strong trends.
 
 That is not a bug.
 It reflects sustained pressure.
 
 But sometimes traders want to know:
+
 > “Is momentum starting to reset *within* this trend?”
 
 Stochastic RSI was created to answer that.
@@ -65,10 +80,12 @@ Stochastic RSI works in two steps:
 That’s it.
 
 Most platforms use:
-- **Stochastic RSI (14, 14, 3, 3)**
+
+* **Stochastic RSI (14, 14, 3, 3)**
 
 You do not need to remember the numbers.
 The idea is:
+
 > We are measuring RSI relative to itself.
 
 ---
@@ -77,12 +94,13 @@ The idea is:
 
 Just like Stochastic:
 
-- 0 → RSI is at the bottom of its recent range
-- 100 → RSI is at the top of its recent range
+* 0 → RSI is at the bottom of its recent range
+* 100 → RSI is at the top of its recent range
 
 Common reference levels:
-- **80** → momentum is stretched
-- **20** → momentum has reset
+
+* **80** → momentum is stretched
+* **20** → momentum has reset
 
 These are **context markers**, not commands.
 
@@ -92,36 +110,39 @@ These are **context markers**, not commands.
 
 Many beginners use Stochastic RSI like this:
 
-- Above 80 → sell
-- Below 20 → buy
+* Above 80 → sell
+* Below 20 → buy
 
 This usually fails.
 
 Why?
 
 Because Stochastic RSI is:
-- Extremely sensitive
-- Very fast
 
-In strong ETH trends, it can flip between extremes many times without price reversing.
+* Extremely sensitive
+* Very fast
+
+In strong trends, it can flip between extremes many times without price reversing.
 
 Stochastic RSI is not a reversal tool.
 It is a **timing refinement tool**.
 
 ---
 
-## How Stochastic RSI Is Used in Ethereum Trading
+## How Stochastic RSI Is Used in Trading (Example)
 
-In systematic ETH trading, Stochastic RSI is used for **precision timing**.
+In systematic trading, Stochastic RSI is used for **precision timing**.
 
 ### 1. Entry Timing Inside Trends
 
 Example:
-- ETH is above a long-term EMA
-- RSI shows bullish pressure
-- Stochastic RSI dips toward 20 and turns up
+
+* price is above a long-term EMA
+* RSI shows bullish pressure
+* Stochastic RSI dips toward 20 and turns up
 
 This suggests:
+
 > Momentum is resetting, not reversing.
 
 Traders may use this to time entries **with the trend**.
@@ -131,8 +152,9 @@ Traders may use this to time entries **with the trend**.
 ### 2. Short-Term Exhaustion Signals
 
 Because it is very fast:
-- Stochastic RSI can highlight short-term exhaustion
-- Especially useful for partial exits or risk reduction
+
+* Stochastic RSI can highlight short-term exhaustion
+* Especially useful for partial exits or risk reduction
 
 It helps traders avoid adding risk at bad moments.
 
@@ -142,9 +164,9 @@ It helps traders avoid adding risk at bad moments.
 
 Stochastic RSI is highly timeframe-dependent:
 
-- **5-minute** → extremely fast, very noisy
-- **1-hour** → short-term momentum resets
-- **4-hour** → swing-level timing refinement
+* **5-minute** → extremely fast, very noisy
+* **1-hour** → short-term momentum resets
+* **4-hour** → swing-level timing refinement
 
 On very short timeframes, it often overreacts.
 Higher timeframes are more reliable.
@@ -156,15 +178,17 @@ Higher timeframes are more reliable.
 Stochastic RSI almost never acts alone.
 
 Common rule-based uses:
-- Require trend filter (EMA/SMA)
-- Require momentum bias (RSI)
-- Use Stochastic RSI for entry timing
+
+* Require trend filter (EMA/SMA)
+* Require momentum bias (RSI)
+* Use Stochastic RSI for entry timing
 
 A simple logic snippet:
-- If ETH > trend filter
-- And RSI > 50
-- And Stochastic RSI crosses up from below 20
-- Allow long entry
+
+* If price is above the trend filter
+* And RSI > 50
+* And Stochastic RSI crosses up from below 20
+* Allow long entry
 
 Stochastic RSI helps algorithms decide **when**, not **why**.
 
@@ -173,12 +197,14 @@ Stochastic RSI helps algorithms decide **when**, not **why**.
 ## What Stochastic RSI Cannot Tell You
 
 Stochastic RSI answers:
+
 > “Is momentum resetting or stretched?”
 
 It does **not** answer:
-- Trend direction
-- Volatility size
-- Risk magnitude
+
+* Trend direction
+* Volatility size
+* Risk magnitude
 
 That information must come from EMA, ATR, or Bollinger Bands.
 
@@ -192,5 +218,4 @@ It reduces complex momentum behavior into one question:
 
 > **Is momentum cooling off or overheated relative to itself?**
 
-When used with trend, momentum, and risk filters, Stochastic RSI becomes a powerful precision tool — especially in automated Ethereum trading systems.
-
+When used with trend, momentum, and risk filters, Stochastic RSI becomes a powerful precision tool — especially in automated trading systems.

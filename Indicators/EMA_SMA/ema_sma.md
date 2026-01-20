@@ -1,12 +1,12 @@
 # EMA & SMA Explained Simply: Which Way Is Price Actually Going?
 
-If you look at an Ethereum chart long enough, you will notice something simple.
+If you look at any price chart long enough, you will notice something simple.
 
-Price moves up and down constantly.  
+Price moves up and down constantly.
 But over time, it often *leans* in one direction.
 
-Sometimes ETH keeps making higher prices.  
-Sometimes it keeps making lower prices.
+Sometimes price keeps making higher levels.
+Sometimes it keeps making lower levels.
 
 EMA and SMA exist because traders need a way to answer one basic question:
 
@@ -18,13 +18,15 @@ EMA and SMA exist because traders need a way to answer one basic question:
 
 Before learning EMA or SMA, start with this question:
 
-> *Is Ethereum generally moving up, down, or sideways?*
+> *Is price generally moving up, down, or sideways?*
 
 Not:
-- Where the next candle will go
-- Whether price will spike in the next minute
+
+* Where the next candle will go
+* Whether price will spike in the next minute
 
 Just:
+
 > **What is the dominant direction over this time window?**
 
 That is the first-principles idea behind moving averages.
@@ -37,8 +39,8 @@ That is the first-principles idea behind moving averages.
 
 They remove short-term noise so you can see the bigger picture.
 
-- SMA = simple average of past prices
-- EMA = weighted average that reacts faster to recent prices
+* SMA = simple average of past prices
+* EMA = weighted average that reacts faster to recent prices
 
 Both do the same job.
 They just respond at different speeds.
@@ -51,13 +53,15 @@ An average answers one question:
 
 > *Where has price mostly been recently?*
 
-If ETH keeps trading above its average:
-- Buyers are in control
-- Trend is likely up
+If price keeps trading above its average:
 
-If ETH keeps trading below its average:
-- Sellers are in control
-- Trend is likely down
+* Buyers are in control
+* Trend is likely up
+
+If price keeps trading below its average:
+
+* Sellers are in control
+* Trend is likely down
 
 Moving averages turn noisy price action into a **directional reference**.
 
@@ -68,13 +72,15 @@ Moving averages turn noisy price action into a **directional reference**.
 SMA looks at the last N candles and gives them **equal importance**.
 
 Example:
-- SMA(20) averages the last 20 candles
-- Old and new candles count the same
+
+* SMA(20) averages the last 20 candles
+* Old and new candles count the same
 
 This makes SMA:
-- Smooth
-- Stable
-- Slow to react
+
+* Smooth
+* Stable
+* Slow to react
 
 SMA changes only when the *whole group* of prices changes.
 
@@ -85,15 +91,17 @@ SMA changes only when the *whole group* of prices changes.
 EMA also looks at the last N candles.
 
 But:
-- Recent candles matter more
-- Older candles matter less
+
+* Recent candles matter more
+* Older candles matter less
 
 This makes EMA:
-- Faster
-- More responsive
-- Slightly noisier
 
-EMA adapts quicker when ETH changes direction.
+* Faster
+* More responsive
+* Slightly noisier
+
+EMA adapts quicker when price changes direction.
 
 ---
 
@@ -101,8 +109,8 @@ EMA adapts quicker when ETH changes direction.
 
 Many beginners treat moving averages as signals:
 
-- Price crosses above → buy
-- Price crosses below → sell
+* Price crosses above → buy
+* Price crosses below → sell
 
 This works sometimes, but often fails.
 
@@ -115,15 +123,16 @@ Their real strength is **context**, not precision.
 
 ---
 
-## How EMA and SMA Are Used in Ethereum Trading
+## How EMA and SMA Are Used in Trading (Example)
 
-In systematic ETH trading, moving averages are used as **trend filters**.
+In systematic trading, moving averages are used as **trend filters**.
 
 ### 1. Trend Direction Filter
 
 Examples:
-- Only take longs when ETH is above its 200-period EMA
-- Only take shorts when ETH is below it
+
+* Only take longs when price is above its 200-period EMA
+* Only take shorts when price is below it
 
 This prevents fighting the dominant direction.
 
@@ -132,12 +141,14 @@ This prevents fighting the dominant direction.
 ### 2. Trend Strength and Pullbacks
 
 In healthy trends:
-- Price pulls back toward the average
-- Then continues in the trend direction
+
+* Price pulls back toward the average
+* Then continues in the trend direction
 
 Moving averages help traders distinguish:
-- Normal pullbacks
-- Real trend breakdowns
+
+* Normal pullbacks
+* Real trend breakdowns
 
 ---
 
@@ -145,13 +156,14 @@ Moving averages help traders distinguish:
 
 Just like other indicators, EMA and SMA change meaning across timeframes:
 
-- **Short periods (20–50)** → fast trend changes
-- **Long periods (100–200)** → major market direction
+* **Short periods (20–50)** → fast trend changes
+* **Long periods (100–200)** → major market direction
 
 Examples:
-- 20 EMA → short-term trend
-- 50 EMA → medium-term trend
-- 200 EMA → long-term bias
+
+* 20 EMA → short-term trend
+* 50 EMA → medium-term trend
+* 200 EMA → long-term bias
 
 Shorter periods react faster but whipsaw more.
 Longer periods react slower but are more reliable.
@@ -160,17 +172,20 @@ Longer periods react slower but are more reliable.
 
 ## EMA vs SMA (When to Use Which)
 
-- **SMA** is useful when:
-  - You want stability
-  - You care about long-term direction
+* **SMA** is useful when:
 
-- **EMA** is useful when:
-  - You want faster feedback
-  - You trade more actively
+  * You want stability
+  * You care about long-term direction
+
+* **EMA** is useful when:
+
+  * You want faster feedback
+  * You trade more actively
 
 Many systems use **both**:
-- EMA for responsiveness
-- SMA for structural bias
+
+* EMA for responsiveness
+* SMA for structural bias
 
 ---
 
@@ -179,13 +194,15 @@ Many systems use **both**:
 Moving averages are foundational in algorithmic trading.
 
 Common rule-based uses:
-- Trade only in the direction of a long-term MA
-- Use shorter MA for pullback entries
-- Exit when price loses MA support
+
+* Trade only in the direction of a long-term MA
+* Use shorter MA for pullback entries
+* Exit when price loses MA support
 
 A simple logic snippet:
-- If ETH > 200 EMA → long bias
-- If ETH pulls back toward 20 EMA → look for entries
+
+* If price > 200 EMA → long bias
+* If ETH pulls back toward 20 EMA → look for entries
 
 Moving averages help algorithms stay on the **right side of the market**.
 
@@ -194,12 +211,14 @@ Moving averages help algorithms stay on the **right side of the market**.
 ## What EMA and SMA Cannot Tell You
 
 Moving averages answer:
+
 > “What direction does price generally agree on?”
 
 They do **not** answer:
-- Momentum strength
-- Volatility
-- Risk size
+
+* Momentum strength
+* Volatility
+* Risk size
 
 That is why they are paired with RSI, MACD, ATR, and Bollinger Bands.
 
@@ -211,7 +230,6 @@ EMA and SMA exist to show agreement.
 
 They reduce thousands of price ticks into one idea:
 
-> **Is Ethereum generally trending up, down, or not at all?**
+> **Is price generally trending up, down, or not at all?**
 
 Once you understand that, moving averages stop feeling basic — and start feeling essential.
-
