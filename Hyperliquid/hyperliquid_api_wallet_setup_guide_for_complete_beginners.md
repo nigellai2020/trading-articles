@@ -104,6 +104,8 @@ On your exchange:
 
 ### Step 3: Withdraw USDC to Arbitrum
 
+Note: Hyperliquid's minimum deposit is 5 USDC — when withdrawing USDC from an exchange, withdraw at least 5 USDC.
+
 Repeat the same steps for **USDC**.
 
 Again, make sure you choose **Arbitrum network**.
