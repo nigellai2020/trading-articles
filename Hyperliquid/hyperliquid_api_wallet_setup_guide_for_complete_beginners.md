@@ -7,7 +7,6 @@ This guide is written for complete beginners who have never used a Web3 wallet b
 By the end of this guide, you will:
 - Create your first Web3 wallet
 - Connect it to Hyperliquid
-- Enable trading
 - Deposit ETH and USDC to Arbitrum
 - Fund your Hyperliquid account
 - Create a secure API wallet for automated trading
