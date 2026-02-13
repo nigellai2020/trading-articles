@@ -191,5 +191,5 @@ Your API wallet is ready.
 
 ---
 
-Your Hyperliquid account is now fully set up for manual trading and bot trading.
+Your Hyperliquid account is now fully set up for trading.
 
